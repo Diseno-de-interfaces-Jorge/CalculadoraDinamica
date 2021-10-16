@@ -41,8 +41,7 @@ namespace CalculadoraDinamica
                     grid.Children.Add(button);
                     numero++;
                 }
-            }
-            
+            }         
             this.Content = grid;
         }
         private void Button_Click(object sender, RoutedEventArgs e)
